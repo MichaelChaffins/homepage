@@ -1,0 +1,19 @@
+<header>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <div *ngIf="">
+
+      </div>
+      <button mat-button class="nav-button" color="primary"
+        [ngClass]="router.url === '/'?'mat-raised-button':'mat-button'" [routerLink]="'/'"
+        [routerLinkActive]="'route-active'" [routerLinkActiveOptions]="{exact: true}">Michael
+        Chaffins</button>
+      <span class="example-spacer"></span>
+      <button mat-button class="nav-button" [routerLink]="'projects'"
+        [routerLinkActive]="'route-active'">Projects</button>
+      <button mat-button>Articles</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>
+
+<router-outlet></router-outlet>
