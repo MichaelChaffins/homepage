@@ -20,3 +20,10 @@ p {
     margin-top: 12px;
     margin-bottom: 12px;
 }
+
+.mat-toolbar-row {
+    height: 128px;
+    font-size: 32px;
+    max-width: 1024px;
+    margin: 0 auto;
+}

@@ -32,3 +32,10 @@ main {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.mat-toolbar-row {
+    height: 128px;
+    font-size: 32px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
