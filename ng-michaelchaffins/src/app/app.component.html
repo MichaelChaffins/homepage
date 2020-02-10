@@ -1,19 +1,40 @@
-<header>
+<nav>
   <mat-toolbar color="primary">
     <mat-toolbar-row>
-      <div *ngIf="">
-
-      </div>
-      <button mat-button class="nav-button" color="primary"
-        [ngClass]="router.url === '/'?'mat-raised-button':'mat-button'" [routerLink]="'/'"
-        [routerLinkActive]="'route-active'" [routerLinkActiveOptions]="{exact: true}">Michael
-        Chaffins</button>
-      <span class="example-spacer"></span>
+      <button mat-button class="nav-button" [routerLink]="'/'" [routerLinkActive]="'mat-elevation-z5'"
+        [routerLinkActiveOptions]="{exact: true}">
+        <mat-icon>home</mat-icon>
+        MC
+      </button>
       <button mat-button class="nav-button" [routerLink]="'projects'"
-        [routerLinkActive]="'route-active'">Projects</button>
-      <button mat-button>Articles</button>
+        [routerLinkActive]="'mat-elevation-z5'">Projects</button>
+      <button mat-button class="nav-button" [routerLink]="'articles'"
+        [routerLinkActive]="'mat-elevation-z5'">Articles</button>
+      <span class="example-spacer"></span>
+      <button mat-button [routerLink]="'about'" [routerLinkActive]="'mat-elevation-z5'">
+        <mat-icon>emoji_people</mat-icon>
+        About
+      </button>
     </mat-toolbar-row>
   </mat-toolbar>
-</header>
+</nav>
 
 <router-outlet></router-outlet>
+
+<hr>
+<footer>
+  <div class="contact">
+    Contact: <a href="mailto:michaelchaffins7@gmail.com">email</a>
+  </div>
+  <div class="social-media">
+    <a class="social-link" href="" target="_blank">
+      <img src="/assets/social-icons/social-1_logo-youtube.svg" alt="" srcset="">
+    </a>
+    <a class="social-link" href="" target="_blank">
+      <img src="/assets/social-icons/social-1_logo-instagram.svg" alt="" srcset="">
+    </a>
+    <a class="social-link" href="" target="_blank">
+      <img src="/assets/social-icons/social-1_logo-twitter.svg" alt="" srcset="">
+    </a>
+  </div>
+</footer>

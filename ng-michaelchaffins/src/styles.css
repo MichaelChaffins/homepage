@@ -7,6 +7,7 @@
     --white: #f9f7fe;
     --teal: #0bb8ba;
     --blue: #123459;
+    --purple: #3f51b5;
 }
 
 html {
@@ -32,11 +33,6 @@ html {
   img {
     max-width: 100%;
     height: auto;
-  }
-
-  .app-root-container {
-      max-width: 1024px;
-      margin: 0 auto;
   }
 
 html, body { height: 100%; }

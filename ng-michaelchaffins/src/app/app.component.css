@@ -1,3 +1,31 @@
 .example-spacer {
     flex: 1 1 auto;
 }
+
+.mat-toolbar-row {
+    padding: 0;
+}
+
+.mat-toolbar-row, hr, footer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.nav-button {
+    margin-right: 15px;
+}
+
+hr {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-link {
+    margin-left: 12px;
+    margin-right: 12px;
+}

@@ -1,0 +1,38 @@
+main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.mat-toolbar-row {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-name {
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container-text {
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-image {
+    width: 45%;
+}
+
+.route-btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
