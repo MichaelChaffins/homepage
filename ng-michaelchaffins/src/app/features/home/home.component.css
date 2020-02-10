@@ -31,8 +31,6 @@ main {
     width: 45%;
 }
 
-.route-btn-div{
-    display: flex;
-    justify-content: center;
+.route-btn {
     margin-top: 15px;
 }
