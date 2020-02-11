@@ -22,10 +22,14 @@ hr {
 
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .social-link {
     margin-left: 12px;
     margin-right: 12px;
+}
+
+.logo {
+    height: 50px;
 }
