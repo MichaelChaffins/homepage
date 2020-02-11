@@ -1,5 +1,5 @@
 main {
-    max-width: 1024px;
+    max-width: 924px;
     margin: 0 auto;
 }
 
@@ -8,4 +8,10 @@ main {
     font-size: 32px;
     max-width: 1024px;
     margin: 0 auto;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-decoration: underline;
 }
